@@ -1,0 +1,11 @@
+package p42;
+
+public class MRun {
+	
+	void run() {
+	}
+	private Integer t;
+	public void set(Integer t)
+}
+
+

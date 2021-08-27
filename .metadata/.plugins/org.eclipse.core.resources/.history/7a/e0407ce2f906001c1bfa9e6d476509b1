@@ -1,0 +1,13 @@
+package p42;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MRun {
+	
+	void run() {
+		
+	}
+}
+
+
