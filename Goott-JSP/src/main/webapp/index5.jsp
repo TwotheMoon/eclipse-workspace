@@ -19,25 +19,18 @@
 <%-- 6. 외부파일 임포트 --%>
 <%@page import="java.util.*"%>   
 
-<%-- 6. 에러시 동작할 파일 지정 및 사용 --%>
+<%-- 7. 에러시 동작할 파일 지정 및 사용 --%>
 <%@page errorPage="errorpage.jsp"%>
 <%@page isErrorPage="true" %>
 
+<%-- 8. 날짜함수 --%>
+<% Date date = new Date(); %>
+<%= date.toLocaleString() %>
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
 
+<%-- 출력 --%>
 <%-- page info --%>
 <%=this.getServletInfo() %>
 
-<%-- page info --%>
 <%@ include file="bot.jsp" %>
-<%@ jsp:incude page="http:localhost:3000" %>
-
-</body>
-</html>
+<jsp:incude page="#.jsp"></jsp:incude>
