@@ -1,4 +1,3 @@
-<%@page import="java.net.URLEncoder"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -8,14 +7,39 @@
 <title>Insert title here</title>
 </head>
 <body>
-	include 를 이용해 다른 페이지에서 데이터 처리후 포함 (만약forward 로 보내면 이 글은 보이지 않음) 
-	<br><br>
 	
-	<jsp:include page="index2.jsp" >
-		<jsp:param name="name" value='<%=URLEncoder.encode("더문") %>' />
-	</jsp:include>
-	<br>
+	<%!	// 선언문 (필드)
+		String s = "문";
+		public String getName() {
+			return "달";
+		}
+	%>
 	
-
+	<%	// 스크립트릿	기본 자바 코드 삽입 + 지역변수 선언문
+		// (선언내용은 지역변수 선언 초기화 해줘야함)
+		String s1 = "강아지";
+		String s2;
+	%>
+	
+	<%=	// 표현식
+		getName()
+	%>
+	<h1>Script Example</h1>
+	<%! String declaration = "Declaration"; %>
+	<%! 
+		public String decMethod(){
+		return declaration;
+	}
+	%>
+	<%
+		String scriptlet = "Scriptlet";
+		String comment = "Comment";
+		out.println("내장객체 출력 : " + declaration + "<p>");
+	%>
+	
+	선언문의 출력1: <%=declaration %><p>
+	선언문의 출력2: <%=decMethod() %><p>
+	스크립트릿 출력 : <%=scriptlet %><p>
+	
 </body>
 </html>
