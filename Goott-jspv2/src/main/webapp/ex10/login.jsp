@@ -15,12 +15,17 @@
 
 	String dbId = "qwe";
 	String dbPw = "qwe";
-	
+%>
+자동로그인 : <%=ck %> <br>
+<% 	
 	if(id.equals(dbId) && pw.equals(dbPw)){
+		if(ck != null && ck.equals("on")){
 		%>
 	당신의 id : <%=id %> <br>
 	당신의 pw : <%=pw %> <br>
-	고객님이 자동로그인 체크를 하셨습니다.
+	<% 
+		}
+	%>	
 	<a href="main.jsp">메인</a>
 <% 
 	Cookie cId = new Cookie("id", id);
