@@ -21,4 +21,11 @@
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSessionBindingEvent"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.zerock.sample.Chef"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
 </qualifiedTypeNameHistroy>

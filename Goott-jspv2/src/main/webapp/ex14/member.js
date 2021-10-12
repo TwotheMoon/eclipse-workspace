@@ -1,21 +1,9 @@
-const clock = document.querySelector(".clock");
 const form = document.getElementById("member-form");
 const intputId = document.querySelector(".id");
 const intputPw = document.querySelector(".pw");
 const intputPwConfirm = document.querySelector(".pw_confirm");
 const inputName = document.querySelector(".name");
 
-function getClock(){
-	const date = new Date();
-	const hours = date.getHours();
-	const minutes = date.getMinutes();
-	const seconds = String(date.getSeconds()).padStart(2, "0");
-	
-	clock.innerText = `${hours}:${minutes}:${seconds}`;
-}
-
-getClock();
-setInterval(getClock, 1000);
 
 // 회원가입 submit 핸들러
 function handleSignUpSubmit(event){
@@ -34,7 +22,7 @@ function handleSignUpSubmit(event){
 		alert("비밀번호가 달라요.");
 		event.preventDefault();
 	} else if(confirmName(userName) == false) {
-		alert("한글자 이상 입력해주세요");
+		alert("이름을 한글자 이상 입력해주세요");
 		event.preventDefault();
 	} else {		
 		alert("가입완료");

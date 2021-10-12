@@ -14,6 +14,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="member.css">
+<script src="member.js" async></script>
 <title>Insert title here</title>
 </head>
 <body id="member-body">
@@ -38,7 +39,8 @@
 				성별 : 
 					<input type="radio" name="gender" value="mail" checked > 남 <br>
 					<input type="radio" name="gender" value="femail" > 여 <br>
-				취미 : 
+				취미 :
+					<input type="checkbox" name="hobby" value="none" checked> 없음 
 					<input type="checkbox" name="hobby" value="game"> 게임
 					<input type="checkbox" name="hobby" value="study"> 공부
 					<input type="checkbox" name="hobby" value="reading"> 독서 <br>
@@ -57,6 +59,5 @@
 		
 	</div>
 
-	<script type="text/javascript" src="member.js"></script>
 </body>
 </html>
