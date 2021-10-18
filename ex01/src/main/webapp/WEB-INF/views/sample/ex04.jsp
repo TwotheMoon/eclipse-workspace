@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	안녕 ${userName}
+
+<H2>SAMPLEDTO ${sampleDTO }</H2>
+<H2>PAGE ${page }</H2>
+
 </body>
 </html>
