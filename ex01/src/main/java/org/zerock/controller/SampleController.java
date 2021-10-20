@@ -87,9 +87,9 @@ public class SampleController {
 		return"ex03";
 	}
 	
-	@GetMapping("/ex04")
+	@GetMapping("/ex04")  
 	public String ex04(SampleDTO dto, @ModelAttribute("page") int page) {
-		
+		               // dto 객체 정보 + Model을 통해 page 값을 추가로 가져와서 뿌리기
 		log.info("dto = " + dto);
 		log.info("page = " + page);
 		
