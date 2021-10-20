@@ -22,6 +22,6 @@ public interface BoardMapper {
 	// 삭제 로직
 	public int delete(Long bno);
 	
-	// 업데이트 로직
+	// 업데이트 로직 // 리턴값 int = 업데이트된 갯수를 확인 하기위해 결국 리턴값 1 받으면 정상 업데이트
 	public int update(BoardVO board);
 }
