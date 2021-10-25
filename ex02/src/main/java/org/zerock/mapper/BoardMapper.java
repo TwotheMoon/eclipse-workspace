@@ -4,12 +4,15 @@ import java.util.List;
 
 
 import org.zerock.domain.BoardVO;
+import org.zerock.domain.Criteria;
 
 public interface BoardMapper {
 
 	//@Select("select * from tbl_board where bno > 0") xml 에서 따로 쿼리 처리
 	public List<BoardVO> getList();
 
+	public List<BoardVO> getListWithPaging(Criteria cri); 
+	
 	// insert 로직 작성 (insert만 처리되고 PK값을 알 필요 없는 경우 )
 	public void insert (BoardVO board);
 	
