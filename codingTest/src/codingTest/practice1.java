@@ -25,20 +25,7 @@ public class practice1 {
 //			}
 //		} 
 		
-		int a = 7;
-        int b = 3;
-        
-        int add = a + b;
-        int minus = a - b;
-        int mult = a * b;
-        int div = a / b;
-        int mod = a % b;
-       
-	  System.out.println(add);
-	  System.out.println(minus);
-	  System.out.println(mult);
-	  System.out.println(div);
-	  System.out.println(mod);
+		
 	  
 		
 	}
