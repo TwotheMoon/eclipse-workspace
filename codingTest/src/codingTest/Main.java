@@ -1,26 +1,19 @@
 package codingTest;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 public class Main {
 
 	public static void main(String[] args) throws IOException {
+
+		Scanner sc = new Scanner(System.in);
 		
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int n = sc.nextInt();
 		
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		
-		int n = Integer.parseInt(st.nextToken());
-		int result = 0;
-		
-		for(int i = 0; i <= n; i++) {
-			result += i;
+		for(int i = 1; i <= 9; i++) {
+			System.out.println(n + "X" + i + "=" + i * n);
 		}
-		System.out.println(result);
 		
 	}
 }
