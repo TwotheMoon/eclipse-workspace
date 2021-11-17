@@ -21,7 +21,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="org.shopmoon.controller.AdminController"/>
     <fullyQualifiedTypeName name="java.lang.SecurityException"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.reflect.CatchClauseSignature"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
@@ -31,7 +30,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestAttribute"/>
     <fullyQualifiedTypeName name="org.shopmoon.domain.PageDTO"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="org.shopmoon.domain.Criteria2"/>
     <fullyQualifiedTypeName name="org.shopmoon.domain.Criteria"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
